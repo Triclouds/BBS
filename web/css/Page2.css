@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul, ol,
+li, dl, dt, dd, form, a, fieldset, input, th, td
+{margin: 0; padding: 0; border: 0; outline: none;}
+body {	font-family: "宋体";font-size: 14px;color:#000000;line-height: 20px;text-align:left; }
+td,th {font-family: "宋体";font-size: 14px;color: #000000;}
+a {color: #000000;} 
+A:link {TEXT-DECORATION: none;}
+A:visited {TEXT-DECORATION: none;}
+p{line-height:30px;}
+ul,li{list-style-type:none;}
+.clearit{clear:both;}
+.page{width:1000px; margin:0 auto;}
+.daohang{ height:40px; background-color:#89c1f9;}
+.daohang ul li{float:left; width:140px; line-height:40px; text-align:center;} 
+.daohang ul{width:1000px; margin:0 auto;}
+.daohang a{display:block;width:140px;}
+.daohang a:hover{background-color:#bcd4ee;}
+.banquan{height:40px; background-color:#89c1f9; margin-top:50px;}
+.banquan p{text-align:center; line-height:40px;}
+.banner{margin-left:30px;}
+.logo{float:left; width:100px; margin-left:20px;}
+.logo img{border-radius: 50%;}
+.zuo{border-right:1px black solid;float:left; width:70px;height:40px; background-color:#89c1f9; margin-left:700px; margin-top:40px;}
+.you p{line-height:40px;text-align:center;} 
+.zuo p{line-height:40px;text-align:center;}
+.you{float:left; width:70px; height:40px; background-color:#89c1f9;margin-top:40px;}
+.yi{margin-left:30px;}
+.yi h3{line-height:50px;}
+.tu{float:left; width:230px; margin-right:10px; }
+.pagezuo{ float:left; width:300px;}
+.pageyou{float:left; margin-left:10px; width:630px;}
+.pzuo{float:left;width:630px;}
+.pyou{ float:left; width:300px;margin-left:10px;}
+.er{width:940px; margin-left:30px; height:50px; border-bottom:1px dashed #1c803e;}
+.er p{line-height:50px;}
+.san{width:300px; margin:0 auto; height:240px;border:1px  solid #1c803e;}
+.san p{line-height:40px; text-align:center;} 
+
+
+
+.contain1{height: 50px;/*margin-top: 20px;*/margin-left:30px;}
+.zuo1 p{line-height:50px;text-align:center;} 
+.zuo1{float:left; width:70px; height:50px; background-color:#89c1f9;}
+.you1 input{width:500px; height:50px; background-color:#bcd4ee;}
+.you1{float:left; width:200px; }
+
+.contain2{height: 200px;margin-top: 20px;margin-left:30px;}
+.zuo2 p{line-height:200px;text-align:center;} 
+.zuo2{float:left; width:70px; height:200px; background-color:#89c1f9;}
+.you2 input{width:500px; height:200px; background-color:#bcd4ee;}
+.you2{float:left; width:200px; }
+
+.contain3{height: 50px;margin-top: 20px;margin-left:30px;}
+.zuo3 p{line-height:50px;text-align:center;} 
+.zuo3{float:left; width:70px; height:50px; background-color:#89c1f9;}
+.you3 input{width:500px; height:50px; background-color:#bcd4ee;}
+.you3{float:left; width:200px; }
+
+.cointain4 {width:300px; height:50px; background-color:#bcd4ee;}
+.button1{
+	width: 100px;
+	height: 50px;
+	background-color:#89c1f9;
+	margin-top:20px;
+	margin-left: 150px;
+	text-align: center;
+	line-height: 50px;
+	color: black;
+	font-size: 20px;
+	float: left;
+}
+.button2{
+	width: 100px;
+	height: 50px;
+	background-color: #89c1f9;
+	margin-top:20px;
+	margin-left: 100px;
+	text-align: center;
+	line-height: 50px;
+	color: black;
+	font-size: 20px;
+	float: left;
+}

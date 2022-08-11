@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(/images/background.jpg);
+}
+
+.page {
+	width: 1000px;
+	height: 100vh;
+	margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 表单样式 */
+
+.form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 500px;
+	background: rgba( 255, 255, 255, 0.25 );
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 4px );
+	-webkit-backdrop-filter: blur( 4px );
+	border-radius: 20px;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 40px 0;
+}
+
+.form input, #upload {
+	background-color: rgba(137, 193, 249, 0.4);
+	text-indent: 20px;
+	width: 300px;
+	height: 50px;
+	margin-left: 100px;
+	margin-top: 38px;
+	border-radius: 10px;
+	color: rgb(172, 169, 169);
+	font-size: 16px;
+}
+
+.form span {
+	color: #c03b44;
+}
+
+.form input:focus {
+	box-sizing: border-box;
+	border: 2px solid rgba( 255, 255, 255, 0.5 );
+	background-color: #bcd4ee;
+}
+
+.form #upload {
+	cursor: pointer;
+	line-height: 50px;
+	color: #757575;
+}
+
+.form #upload:active {
+	box-sizing: border-box;
+	border: 2px solid rgba( 255, 255, 255, 0.5 );
+	background-color: #bcd4ee;
+}
+
+.form h3 {
+	font-size: 30px;
+	text-align: center;
+}
+
+.form .submit {
+	cursor: pointer;
+	width: 200px;
+	margin-left: 150px;
+	background-color: #89c1f9;
+	color: #000;
+	text-indent: 0;
+}
+
+.form .submit:hover {
+	background-color: #79a8db;
+}
+
+.form #file {
+	display: none;
+}
